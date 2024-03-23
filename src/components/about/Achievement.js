@@ -3,22 +3,22 @@ import React from 'react';
 const feature = [
     {
         title:'10,000+ Transformations',
-        img:'icon-3.png',
+        img:'Icon-3.png',
         text:'Our personalized nutrition plans have helped thousands of individuals reach their weight loss goals and maintain a healthy lifestyle.',
     },
     {
         title:'Recognition for Excellence',
-        img:'icon-1.png',
+        img:'Icon-1.png',
         text:'Nutritionist has been recognized as a leading provider of personalized nutrition coaching, receiving accolades for our innovative approach and commitment to client success.',
     },
     {
         title:'Positive Client Reviews',
-        img:'icon-5.png',
+        img:'Icon-5.png',
         text:'We have received numerous testimonials from satisfied clients who have experienced significant improvements in their health, weight, and overall well-being through our coaching program.',
     },
     {
         title:'Collaborate With Top Health Experts.',
-        img:'icon-6.png',
+        img:'Icon-6.png',
         text:'Nutritionist has established partnerships with respected nutritionists, dietitians, and health experts to ensure that our clients receive the highest quality guidance and support.',
     },
 ];

@@ -18,7 +18,7 @@ const Hero = () => {
         </div>
         <div className="flex w-full mt-10">
         <div className="flex -space-x-4 rtl:space-x-reverse">
-        <img className="w-10 h-10 border-2 border-white rounded-full dark:border-gray-800" src="image.png" alt="" />
+        <img className="w-10 h-10 border-2 border-white rounded-full dark:border-gray-800" src="Image.png" alt="" />
         <img className="w-10 h-10 border-2 border-white rounded-full dark:border-gray-800" src="Image-1.png" alt="" />
         <img className="w-10 h-10 border-2 border-white rounded-full dark:border-gray-800" src="Image-2.png" alt="" />
         <Link  to='pricing' className="flex items-center justify-center text-xl max-[400px]:text-md font-medium text-indigo-300" style={{"marginLeft":"0.5rem"}}> 430+ Happy Customers</Link>

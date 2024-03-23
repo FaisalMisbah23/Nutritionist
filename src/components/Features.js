@@ -3,27 +3,27 @@ import React from 'react';
 const feature = [
     {
         title:'Personalized Nutrition Plans',
-        img:'icon-3.png',
+        img:'Icon-3.png',
         text:'Receive a tailored nutrition plan designed specifically for your body and goals. Our certified nutritionists will consider your unique needs, dietary preferences, and health conditions to create a plan that suits you best.',
     },
     {
         title:'Guidance from Certified Nutritionists',
-        img:'icon-1.png',
+        img:'Icon-1.png',
         text:'Our team of experienced and certified nutritionists will provide professional guidance and support throughout your journey. They will answer your questions, address your concerns, and keep you motivated as you work towards your goals.',
     },
     {
         title:'Food Tracking and Analysis',
-        img:'icon-5.png',
+        img:'Icon-5.png',
         text:'Effortlessly track your food intake using our user-friendly app. Our nutritionists will analyze your data to provide insights into your eating habits, help you identify areas for improvement, and make personalized recommendations.',
     },
     {
         title:'Meal Planning and Recipes',
-        img:'icon-6.png',
+        img:'Icon-6.png',
         text:'Access a vast collection of delicious and healthy recipes tailored to your dietary needs. Our nutritionists will also create personalized meal plans, making it easier for you to stay on track and enjoy nutritious meals.',
     },
     {
         title:'Lifestyle and Behavior Coaching',
-        img:'icon-2.png',
+        img:'Icon-2.png',
         text:'Achieving sustainable results requires more than just a diet plan. Our nutritionists will work with you to develop healthy habits, address emotional eating, and provide strategies to overcome obstacles along the way.',
     },
     {
