@@ -121,11 +121,11 @@ const Section = () => {
          <img className='relative right-0' src={blog.img} alt="" />
          </div></div>
          <div className='flex items-center justify-between max-[640px]:flex-col max-[640px]:gap-4 max-[640px]:items-start'>
-         <div className='w-[70%] text-left mr-4'>
+         <div className='w-[70%] text-left mr-4 max-[500px]:w-full'>
          <h2 className="sm:text-3xl text-2xl title-font font-medium text-gray-900 mt-4 mb-4">{blog.title}</h2>
          <p className="leading-relaxed">{blog.content}</p>   
          </div>
-         <div className='w-[25%]'>
+         <div className='w-[25%] max-[500px]:w-full'>
        <button className="inline-flex items-center bg-indigo-200 text-indigo-400 border-0 py-1 px-3 focus:outline-none hover:bg-indigo-200 rounded font-semibold">Read More</button>
        </div>
        </div>

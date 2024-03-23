@@ -87,7 +87,7 @@ const Pricing = () => {
            </div>:null}
             <h1 className="text-5xl text-gray-900 leading-none flex items-center pb-4 mb-4">
                <span>{item.price}</span>
-               <span className="text-lg ml-1 font-normal text-gray-500">/mo</span>
+               <span className="text-lg ml-1 font-normal text-gray-500">{`${selectedPlan === 'month' ? '/mo' : '/year'}`}</span>
              </h1>
              <button className="mt-auto text-bold text-indigo-300 bg-indigo-200 py-2 px-4 w-full focus:outline-none hover:bg-indigo-200 rounded text-center">Choose Plan
              </button>

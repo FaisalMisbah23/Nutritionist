@@ -16,14 +16,14 @@ const Footer = () => {
         <img src="logo.png" alt="" />
         <span className="ml-3 text-xl">Nutritionist</span>
       </div>
-      <div className="flex items-center">
+      <a href='#top'>  <div className="flex items-center">
         <h5>Go to Top</h5>
         <button className="ml-2 inline-flex items-center bg-indigo-50 border-0 py-2 px-2 focus:outline-none rounded-full text-base">
           <svg xmlns="http://www.w3.org/2000/svg" width="1.25em" height="1.25em" viewBox="0 0 24 24">
             <path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M12 20V4m0 0l6 6m-6-6l-6 6"/>
           </svg>
         </button>
-      </div>
+      </div></a>
     </div>
         <nav className="max-[770px]:justify-start md:ml-auto md:mr-auto flex flex-wrap items-center text-base justify-center">
         <Link to='' className={`mr-5 ${url === '/' ? 'text-indigo-200' : 'text-white'} hover:text-indigo-200`}>Home</Link>
