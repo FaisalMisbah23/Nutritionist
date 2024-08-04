@@ -26,7 +26,7 @@ const Footer = () => {
       </div></a>
     </div>
         <nav className="max-[770px]:justify-start md:ml-auto md:mr-auto flex flex-wrap items-center text-base justify-center">
-        <Link to='' className={`mr-5 ${url === '/' ? 'text-indigo-200' : 'text-white'} hover:text-indigo-200`}>Home</Link>
+        <Link to='/#top' className={`mr-5 ${url === '/' ? 'text-indigo-200' : 'text-white'} hover:text-indigo-200`}>Home</Link>
           <Link to='about#top' className={`mr-5 ${url === '/about' ? 'text-indigo-200' : 'text-white'} hover:text-indigo-200`}>About</Link>
           <Link to="team#top" className={`mr-5 ${url === '/team' ? 'text-indigo-200' : 'text-white'} hover:text-indigo-200`}>Team</Link>
           <Link to='process#top' className={`mr-5 ${url === '/process' ? 'text-indigo-200' : 'text-white'} hover:text-indigo-200`}>Process</Link>
