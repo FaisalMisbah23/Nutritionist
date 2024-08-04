@@ -13,6 +13,7 @@ import Contact from "./Contact";
 function App() {
   return (
     <Router> {/* Wrap your entire application with the Router component */}
+
       <Navbar />
       <Routes>
         <Route path="/" element={<Home />} />

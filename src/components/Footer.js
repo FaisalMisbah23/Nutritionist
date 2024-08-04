@@ -1,5 +1,5 @@
 import React from 'react'
-import { Link, useLocation } from 'react-router-dom'
+import { Link , useLocation } from 'react-router-dom'
 
 const Footer = () => {
     const url = useLocation().pathname
@@ -27,11 +27,11 @@ const Footer = () => {
     </div>
         <nav className="max-[770px]:justify-start md:ml-auto md:mr-auto flex flex-wrap items-center text-base justify-center">
         <Link to='' className={`mr-5 ${url === '/' ? 'text-indigo-200' : 'text-white'} hover:text-indigo-200`}>Home</Link>
-          <Link to='about' className={`mr-5 ${url === '/about' ? 'text-indigo-200' : 'text-white'} hover:text-indigo-200`}>About</Link>
-          <Link to="team" className={`mr-5 ${url === '/team' ? 'text-indigo-200' : 'text-white'} hover:text-indigo-200`}>Team</Link>
-          <Link to='process' className={`mr-5 ${url === '/process' ? 'text-indigo-200' : 'text-white'} hover:text-indigo-200`}>Process</Link>
-          <Link to='pricing' className={`mr-5 ${url === '/pricing' ? 'text-indigo-200' : 'text-white'} hover:text-indigo-200`}>Pricing</Link>
-          <Link to='blog' className={`mr-5 ${url === '/blog' ? 'text-indigo-200' : 'text-white'} hover:text-indigo-200`}>Blog</Link>
+          <Link to='about#top' className={`mr-5 ${url === '/about' ? 'text-indigo-200' : 'text-white'} hover:text-indigo-200`}>About</Link>
+          <Link to="team#top" className={`mr-5 ${url === '/team' ? 'text-indigo-200' : 'text-white'} hover:text-indigo-200`}>Team</Link>
+          <Link to='process#top' className={`mr-5 ${url === '/process' ? 'text-indigo-200' : 'text-white'} hover:text-indigo-200`}>Process</Link>
+          <Link to='pricing#top' className={`mr-5 ${url === '/pricing' ? 'text-indigo-200' : 'text-white'} hover:text-indigo-200`}>Pricing</Link>
+          <Link to='blog#top' className={`mr-5 ${url === '/blog' ? 'text-indigo-200' : 'text-white'} hover:text-indigo-200`}>Blog</Link>
         </nav>
       <a href='#top'> <div className='flex items-center max-[770px]:hidden'>
        <h5 className='max-[770px]:mt-3' >Go to Top</h5>

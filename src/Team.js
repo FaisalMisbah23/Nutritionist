@@ -1,4 +1,4 @@
-import React, {useState} from 'react';
+import React, {useState,useEffect} from 'react';
 import { Link } from 'react-router-dom';
 
 const teamMembers = [
@@ -40,9 +40,31 @@ function Team() {
     teamMembers :
     teamMembers.filter(member => member.department === selectedRole);
 
+    useEffect(() => {
+      window.scrollTo(0, 0);
+  
+      const scrollToHash = () => {
+        if (window.location.hash) {
+          const element = document.getElementById(window.location.hash.substring(1));
+          if (element) {
+            element.scrollIntoView({ behavior: 'smooth' });
+          }
+        }
+      };
+  
+      scrollToHash();
+  
+      window.addEventListener('hashchange', scrollToHash);
+  
+      return () => {
+        window.removeEventListener('hashchange', scrollToHash);
+      };
+    }, []);
+
+
   return (
     <>
-      <div className='container mx-auto px-5 py-8'>
+      <div id='top' className='container mx-auto px-5 py-8'>
       <div className='bg-indigo-10 flex flex-col gap-8 items-center py-10 px-8 sm:px-20 relative'>
       <div className="absolute inset-0 top-0 flex items-start justify-center">
         <img className='h-auto max-w-full' src="Abstrac-bg.png" alt="" />
